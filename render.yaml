@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: elite-xp-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: "8551726061:AAGawAjRX4wBjM8w6dHXfrJxVlUrWJU5EK4"
