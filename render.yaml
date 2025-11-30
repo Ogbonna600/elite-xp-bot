@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: cd /opt/render/project/src && python main.py
+    startCommand: python main.py
